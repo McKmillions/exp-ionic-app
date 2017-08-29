@@ -1,0 +1,50 @@
+<ion-view title="New Expense" id="page6">
+  <!-- <ion-nav-buttons side="left" class="has-header">
+    <button ng-click="goBackState()" class="button button-icon icon ion-ios-arrow-back"> Back</button>
+  </ion-nav-buttons> -->
+  <ion-content padding="true" class="has-header">
+    <form id="newExpense-form1" class="list">
+      <label class="item item-input" id="newExpense-input3">
+        <span class="input-label">Date</span>
+        <input type="date" placeholder="">
+      </label>
+      <label class="item item-select" id="newExpense-select1">
+        <span class="input-label">Category</span>
+        <select>
+          <option>General</option>
+          <option>Hotel</option>
+          <option>Mileage</option>
+          <option>Per diem</option>
+        </select>
+      </label>
+      <label class="item item-select" id="newExpense-select2">
+        <span class="input-label">Payment</span>
+        <select>
+          <option>Out of Pocket</option>
+          <option>Corporate Card</option>
+        </select>
+      </label>
+      <label class="item item-input" id="newExpense-input4">
+        <span class="input-label">Description</span>
+        <input type="text" placeholder="">
+      </label>
+      <label class="item item-input" id="newExpense-input2">
+        <span class="input-label">Amount</span>
+        <input type="number" placeholder="$0.00 USD">
+      </label>
+    </form>
+    <div class="item item-body" id="newExpense-list-item-container5">
+      <ion-list id="newExpense-list8">
+        <ion-item class="item-avatar" id="newExpense-list-item28">
+          <h2>Attendees: 0</h2>
+        </ion-item>
+        <ion-item class="item-thumbnail-left" id="newExpense-list-item29">
+          <h2>Receipts: 1</h2>
+        </ion-item>
+        <ion-item class="item-icon-left" id="newExpense-list-item30">
+          <i class="icon ion-document-text"></i>Notes: 0</ion-item>
+      </ion-list>
+    </div>
+    <a ui-sref="menu.expenses" id="newExpense-button5" class="button button-balanced  button-block">Save</a>
+  </ion-content>
+</ion-view>

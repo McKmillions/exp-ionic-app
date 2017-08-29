@@ -1,0 +1,5 @@
+{
+  "name": "expense-6-mobile-app",
+  "app_id": "",
+  "gulpStartupTasks": ["sass", "watch"]
+}
